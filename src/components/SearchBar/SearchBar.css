@@ -1,0 +1,15 @@
+.search-bar{
+    height: 50px;
+    width: 30vw;
+  
+}
+
+.search-bar:focus-within{
+    width: 90vw;
+}
+.search-bar::placeholder{
+    font-size: xx-large;
+}
+.search-bar:focus-within::placeholder{
+    color: white;
+}

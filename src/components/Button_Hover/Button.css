@@ -1,0 +1,34 @@
+
+.button-container{
+    
+    position: relative;
+    background: linear-gradient(to right,#d63031, #6c5ce7);
+    padding: 3px;
+    transition: all 0.5s ease;
+   
+   
+}
+.button-container:hover{
+    background: linear-gradient(to right, #6c5ce7, #d63031);
+}
+
+.button-1{
+    margin:5px;
+    height: 100px;
+    width: 350px;
+    background-color: #2d3436;
+    color:white;
+    font-size: xx-large;
+    transition: all 0.3s ease;
+    border: none;
+    letter-spacing: .1em;
+
+}
+.button-1:hover{
+    
+    height: 105px;
+    width: 355px;
+
+
+
+}
