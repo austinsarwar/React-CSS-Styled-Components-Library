@@ -1,15 +1,21 @@
 .search-bar{
     height: 50px;
     width: 30vw;
+    border: 5px solid white;
+    transition: all .3s;
   
 }
 
-.search-bar:focus-within{
+.search-bar:focus-visible{
     width: 90vw;
+    border-color: #3498db;
+    outline: none; /* Optional: Remove default outline */
 }
 .search-bar::placeholder{
     font-size: xx-large;
 }
 .search-bar:focus-within::placeholder{
     color: white;
+   
+    
 }
